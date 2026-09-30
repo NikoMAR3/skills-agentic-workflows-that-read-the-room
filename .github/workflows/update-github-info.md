@@ -17,7 +17,6 @@ network:
   allowed:
     - github.blog
     - github.com
-    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -28,9 +27,8 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
-- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-Use web-fetch to read the GitHub Blog, GitHub Changelog, and Awesome Copilot workflows pages. Tell the agent to web fetch https://awesome-copilot.github.com/workflows/ and include that source in the research. Read external public guidance with web-fetch before deciding what to include.
+Use web-fetch to read the GitHub Blog and GitHub Changelog pages. Read external public guidance with web-fetch before deciding what to include.
 Read repository guidance or reference files with GitHub repository API tools instead of terminal, CLI, or sandboxed commands.
 
 Update `site/content/github-info.md` with concise, practical updates for readers and include source context when content comes from the GitHub Blog or GitHub Changelog.
