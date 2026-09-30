@@ -21,6 +21,7 @@ Manage the Astro website in the `site/` directory for this repository.
 - Only stop a process when you have the exact PID.
 - Never use `pkill`, `killall`, or other name-based process termination.
 - If a process on the requested port does not appear to be this repository's Astro site, stop and ask me before killing it.
+- When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
 
 ## Behavior
 
